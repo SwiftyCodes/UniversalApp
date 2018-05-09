@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		84ADA8D120A30B4600117CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8D020A30B4600117CC3 /* AppDelegate.swift */; };
-		84ADA8D320A30B4600117CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8D220A30B4600117CC3 /* ViewController.swift */; };
+		84ADA8D320A30B4600117CC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8D220A30B4600117CC3 /* LoginViewController.swift */; };
 		84ADA8D620A30B4600117CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA8D420A30B4600117CC3 /* Main.storyboard */; };
 		84ADA8D920A30B4700117CC3 /* UniversalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8D720A30B4600117CC3 /* UniversalApp.xcdatamodeld */; };
 		84ADA8DB20A30B4700117CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA8DA20A30B4700117CC3 /* Assets.xcassets */; };
 		84ADA8DE20A30B4700117CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA8DC20A30B4700117CC3 /* LaunchScreen.storyboard */; };
+		84ADA8E920A33E4A00117CC3 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8E820A33E4A00117CC3 /* FloatLabelTextField.swift */; };
+		84ADA8EB20A3420500117CC3 /* UtilitiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8EA20A3420500117CC3 /* UtilitiFile.swift */; };
+		84ADA8ED20A3623B00117CC3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */; };
+		84ADA8F220A3669800117CC3 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84ADA8CD20A30B4500117CC3 /* UniversalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ADA8D020A30B4600117CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84ADA8D220A30B4600117CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84ADA8D220A30B4600117CC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84ADA8D520A30B4600117CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84ADA8D820A30B4600117CC3 /* UniversalApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniversalApp.xcdatamodel; sourceTree = "<group>"; };
 		84ADA8DA20A30B4700117CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ADA8DD20A30B4700117CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ADA8DF20A30B4700117CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ADA8E820A33E4A00117CC3 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		84ADA8EA20A3420500117CC3 /* UtilitiFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiFile.swift; sourceTree = "<group>"; };
+		84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		84ADA8C420A30B4500117CC3 = {
 			isa = PBXGroup;
 			children = (
+				84ADA8D020A30B4600117CC3 /* AppDelegate.swift */,
 				84ADA8CF20A30B4600117CC3 /* UniversalApp */,
 				84ADA8CE20A30B4500117CC3 /* Products */,
 			);
@@ -56,8 +65,9 @@
 		84ADA8CF20A30B4600117CC3 /* UniversalApp */ = {
 			isa = PBXGroup;
 			children = (
-				84ADA8D020A30B4600117CC3 /* AppDelegate.swift */,
-				84ADA8D220A30B4600117CC3 /* ViewController.swift */,
+				84ADA8F020A3666400117CC3 /* Utility File */,
+				84ADA8EF20A3665300117CC3 /* Controller Files */,
+				84ADA8E620A33D6800117CC3 /* Supporting Files */,
 				84ADA8D420A30B4600117CC3 /* Main.storyboard */,
 				84ADA8DA20A30B4700117CC3 /* Assets.xcassets */,
 				84ADA8DC20A30B4700117CC3 /* LaunchScreen.storyboard */,
@@ -65,6 +75,40 @@
 				84ADA8D720A30B4600117CC3 /* UniversalApp.xcdatamodeld */,
 			);
 			path = UniversalApp;
+			sourceTree = "<group>";
+		};
+		84ADA8E620A33D6800117CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84ADA8E720A33D6F00117CC3 /* Floating Label */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84ADA8E720A33D6F00117CC3 /* Floating Label */ = {
+			isa = PBXGroup;
+			children = (
+				84ADA8E820A33E4A00117CC3 /* FloatLabelTextField.swift */,
+			);
+			path = "Floating Label";
+			sourceTree = "<group>";
+		};
+		84ADA8EF20A3665300117CC3 /* Controller Files */ = {
+			isa = PBXGroup;
+			children = (
+				84ADA8D220A30B4600117CC3 /* LoginViewController.swift */,
+				84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */,
+				84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */,
+			);
+			path = "Controller Files";
+			sourceTree = "<group>";
+		};
+		84ADA8F020A3666400117CC3 /* Utility File */ = {
+			isa = PBXGroup;
+			children = (
+				84ADA8EA20A3420500117CC3 /* UtilitiFile.swift */,
+			);
+			path = "Utility File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ADA8D320A30B4600117CC3 /* ViewController.swift in Sources */,
+				84ADA8F220A3669800117CC3 /* LeaderboardViewController.swift in Sources */,
+				84ADA8D320A30B4600117CC3 /* LoginViewController.swift in Sources */,
 				84ADA8D120A30B4600117CC3 /* AppDelegate.swift in Sources */,
 				84ADA8D920A30B4700117CC3 /* UniversalApp.xcdatamodeld in Sources */,
+				84ADA8ED20A3623B00117CC3 /* RegisterViewController.swift in Sources */,
+				84ADA8E920A33E4A00117CC3 /* FloatLabelTextField.swift in Sources */,
+				84ADA8EB20A3420500117CC3 /* UtilitiFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFST53TKG7;
 				INFOPLIST_FILE = UniversalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.UniversalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MFST53TKG7;
 				INFOPLIST_FILE = UniversalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.UniversalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
