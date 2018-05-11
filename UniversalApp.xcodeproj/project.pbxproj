@@ -17,6 +17,10 @@
 		84ADA8EB20A3420500117CC3 /* UtilitiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8EA20A3420500117CC3 /* UtilitiFile.swift */; };
 		84ADA8ED20A3623B00117CC3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */; };
 		84ADA8F220A3669800117CC3 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */; };
+		84F2EAE320A5D4F600591D57 /* LeaderBoardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2EAE220A5D4F600591D57 /* LeaderBoardTableView.swift */; };
+		84F2EAE820A5E86700591D57 /* HomeViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2EAE720A5E86700591D57 /* HomeViewViewController.swift */; };
+		84F2EAED20A610A300591D57 /* FeedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2EAEC20A610A300591D57 /* FeedTableView.swift */; };
+		84F2EAEF20A610B600591D57 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2EAEE20A610B600591D57 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		84ADA8EA20A3420500117CC3 /* UtilitiFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiFile.swift; sourceTree = "<group>"; };
 		84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		84F2EAE220A5D4F600591D57 /* LeaderBoardTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableView.swift; sourceTree = "<group>"; };
+		84F2EAE720A5E86700591D57 /* HomeViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewController.swift; sourceTree = "<group>"; };
+		84F2EAEC20A610A300591D57 /* FeedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableView.swift; sourceTree = "<group>"; };
+		84F2EAEE20A610B600591D57 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +104,10 @@
 		84ADA8EF20A3665300117CC3 /* Controller Files */ = {
 			isa = PBXGroup;
 			children = (
-				84ADA8D220A30B4600117CC3 /* LoginViewController.swift */,
-				84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */,
-				84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */,
+				84F2EAEB20A6108200591D57 /* Feeds */,
+				84F2EAE620A5E84500591D57 /* Home Menu-Collection View */,
+				84F2EAE520A5DF4D00591D57 /* Login N Registration */,
+				84F2EAE420A5DF2A00591D57 /* Leader Board  */,
 			);
 			path = "Controller Files";
 			sourceTree = "<group>";
@@ -109,6 +118,41 @@
 				84ADA8EA20A3420500117CC3 /* UtilitiFile.swift */,
 			);
 			path = "Utility File";
+			sourceTree = "<group>";
+		};
+		84F2EAE420A5DF2A00591D57 /* Leader Board  */ = {
+			isa = PBXGroup;
+			children = (
+				84F2EAE220A5D4F600591D57 /* LeaderBoardTableView.swift */,
+				84ADA8F120A3669800117CC3 /* LeaderboardViewController.swift */,
+			);
+			path = "Leader Board ";
+			sourceTree = "<group>";
+		};
+		84F2EAE520A5DF4D00591D57 /* Login N Registration */ = {
+			isa = PBXGroup;
+			children = (
+				84ADA8D220A30B4600117CC3 /* LoginViewController.swift */,
+				84ADA8EC20A3623B00117CC3 /* RegisterViewController.swift */,
+			);
+			path = "Login N Registration";
+			sourceTree = "<group>";
+		};
+		84F2EAE620A5E84500591D57 /* Home Menu-Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				84F2EAE720A5E86700591D57 /* HomeViewViewController.swift */,
+			);
+			path = "Home Menu-Collection View";
+			sourceTree = "<group>";
+		};
+		84F2EAEB20A6108200591D57 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				84F2EAEC20A610A300591D57 /* FeedTableView.swift */,
+				84F2EAEE20A610B600591D57 /* FeedViewController.swift */,
+			);
+			path = Feeds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F2EAE320A5D4F600591D57 /* LeaderBoardTableView.swift in Sources */,
+				84F2EAE820A5E86700591D57 /* HomeViewViewController.swift in Sources */,
 				84ADA8F220A3669800117CC3 /* LeaderboardViewController.swift in Sources */,
 				84ADA8D320A30B4600117CC3 /* LoginViewController.swift in Sources */,
 				84ADA8D120A30B4600117CC3 /* AppDelegate.swift in Sources */,
 				84ADA8D920A30B4700117CC3 /* UniversalApp.xcdatamodeld in Sources */,
+				84F2EAED20A610A300591D57 /* FeedTableView.swift in Sources */,
+				84F2EAEF20A610B600591D57 /* FeedViewController.swift in Sources */,
 				84ADA8ED20A3623B00117CC3 /* RegisterViewController.swift in Sources */,
 				84ADA8E920A33E4A00117CC3 /* FloatLabelTextField.swift in Sources */,
 				84ADA8EB20A3420500117CC3 /* UtilitiFile.swift in Sources */,
