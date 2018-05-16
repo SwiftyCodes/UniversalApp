@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843F887320AC58900070F4FC /* DashTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843F887220AC58900070F4FC /* DashTableView.swift */; };
 		8442EC8E20A9C477006A5C10 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8442EC8D20A9C477006A5C10 /* Podfile */; };
 		8442EC9220A9DACC006A5C10 /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442EC9120A9DACC006A5C10 /* DashViewController.swift */; };
+		844F1BA720AC76DD00BD1032 /* PollTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F1BA620AC76DD00BD1032 /* PollTableView.swift */; };
+		844F1BA920AC76F200BD1032 /* PollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F1BA820AC76F200BD1032 /* PollViewController.swift */; };
+		844F1BAC20AC998F00BD1032 /* ParticularPollTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F1BAB20AC998F00BD1032 /* ParticularPollTableView.swift */; };
+		844F1BAE20AC99A300BD1032 /* ParticulatPollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F1BAD20AC99A300BD1032 /* ParticulatPollViewController.swift */; };
 		84ADA8D120A30B4600117CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8D020A30B4600117CC3 /* AppDelegate.swift */; };
 		84ADA8D320A30B4600117CC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA8D220A30B4600117CC3 /* LoginViewController.swift */; };
 		84ADA8D620A30B4600117CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA8D420A30B4600117CC3 /* Main.storyboard */; };
@@ -31,9 +36,15 @@
 		24BCB78D3C2AC3A98C47EA0C /* Pods-UniversalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.release.xcconfig"; sourceTree = "<group>"; };
 		40079340A9B4B502C74B3A67 /* Pods-UniversalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.debug.xcconfig"; sourceTree = "<group>"; };
 		50E1B0C665B539F8B2C41DD2 /* Pods_UniversalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843F887220AC58900070F4FC /* DashTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashTableView.swift; sourceTree = "<group>"; };
+		843F887620AC6A0E0070F4FC /* LinearProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LinearProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8442EC8D20A9C477006A5C10 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8442EC9120A9DACC006A5C10 /* DashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
 		8442EC9420A9EDCF006A5C10 /* Floaty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Floaty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844F1BA620AC76DD00BD1032 /* PollTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollTableView.swift; sourceTree = "<group>"; };
+		844F1BA820AC76F200BD1032 /* PollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollViewController.swift; sourceTree = "<group>"; };
+		844F1BAB20AC998F00BD1032 /* ParticularPollTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticularPollTableView.swift; sourceTree = "<group>"; };
+		844F1BAD20AC99A300BD1032 /* ParticulatPollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticulatPollViewController.swift; sourceTree = "<group>"; };
 		84ADA8CD20A30B4500117CC3 /* UniversalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ADA8D020A30B4600117CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84ADA8D220A30B4600117CC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +80,7 @@
 		219AEA82EAAFAF5DB2DD08B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				843F887620AC6A0E0070F4FC /* LinearProgressBar.framework */,
 				84C85EDB20AB2888001762A0 /* Floaty.framework */,
 				8442EC9420A9EDCF006A5C10 /* Floaty.framework */,
 				50E1B0C665B539F8B2C41DD2 /* Pods_UniversalApp.framework */,
@@ -76,12 +88,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		843F887420AC5DAF0070F4FC /* Poll */ = {
+			isa = PBXGroup;
+			children = (
+				844F1BA820AC76F200BD1032 /* PollViewController.swift */,
+				844F1BA620AC76DD00BD1032 /* PollTableView.swift */,
+				844F1BAA20AC995D00BD1032 /* Particular Poll */,
+			);
+			path = Poll;
+			sourceTree = "<group>";
+		};
 		8442EC9020A9DABF006A5C10 /* Dash */ = {
 			isa = PBXGroup;
 			children = (
 				8442EC9120A9DACC006A5C10 /* DashViewController.swift */,
+				843F887220AC58900070F4FC /* DashTableView.swift */,
 			);
 			path = Dash;
+			sourceTree = "<group>";
+		};
+		844F1BAA20AC995D00BD1032 /* Particular Poll */ = {
+			isa = PBXGroup;
+			children = (
+				844F1BAD20AC99A300BD1032 /* ParticulatPollViewController.swift */,
+				844F1BAB20AC998F00BD1032 /* ParticularPollTableView.swift */,
+			);
+			path = "Particular Poll";
 			sourceTree = "<group>";
 		};
 		84ADA8C420A30B4500117CC3 = {
@@ -138,6 +170,7 @@
 		84ADA8EF20A3665300117CC3 /* Controller Files */ = {
 			isa = PBXGroup;
 			children = (
+				843F887420AC5DAF0070F4FC /* Poll */,
 				8442EC9020A9DABF006A5C10 /* Dash */,
 				84F2EAEB20A6108200591D57 /* Feeds */,
 				84F2EAE620A5E84500591D57 /* Home Menu-Collection View */,
@@ -329,18 +362,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843F887320AC58900070F4FC /* DashTableView.swift in Sources */,
 				84F2EAE320A5D4F600591D57 /* LeaderBoardTableView.swift in Sources */,
 				84F2EAE820A5E86700591D57 /* HomeViewViewController.swift in Sources */,
 				84ADA8F220A3669800117CC3 /* LeaderboardViewController.swift in Sources */,
+				844F1BA920AC76F200BD1032 /* PollViewController.swift in Sources */,
 				84ADA8D320A30B4600117CC3 /* LoginViewController.swift in Sources */,
 				84ADA8D120A30B4600117CC3 /* AppDelegate.swift in Sources */,
+				844F1BA720AC76DD00BD1032 /* PollTableView.swift in Sources */,
 				84ADA8D920A30B4700117CC3 /* UniversalApp.xcdatamodeld in Sources */,
+				844F1BAC20AC998F00BD1032 /* ParticularPollTableView.swift in Sources */,
 				84F2EAED20A610A300591D57 /* FeedTableView.swift in Sources */,
 				84F2EAEF20A610B600591D57 /* FeedViewController.swift in Sources */,
 				84ADA8ED20A3623B00117CC3 /* RegisterViewController.swift in Sources */,
 				84ADA8E920A33E4A00117CC3 /* FloatLabelTextField.swift in Sources */,
 				8442EC9220A9DACC006A5C10 /* DashViewController.swift in Sources */,
 				84ADA8EB20A3420500117CC3 /* UtilitiFile.swift in Sources */,
+				844F1BAE20AC99A300BD1032 /* ParticulatPollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
